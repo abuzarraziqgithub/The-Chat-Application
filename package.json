@@ -1,0 +1,27 @@
+{
+  "name": "the-chat-application",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/abuzarraziqgithub/The-Chat-Application#readme",
+  "bugs": {
+    "url": "https://github.com/abuzarraziqgithub/The-Chat-Application/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abuzarraziqgithub/The-Chat-Application.git"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  },
+  "devDependencies": {
+    "env-cmd": "^11.0.0",
+    "nodemon": "^3.1.14"
+  }
+}
