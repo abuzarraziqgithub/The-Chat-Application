@@ -1,7 +1,5 @@
 const socket = io();
 
-socket.emit("greetings", "Hello world");
-
-socket.on("response", (message) => {
+socket.on("message", (message) => {
   console.log(message);
 });
